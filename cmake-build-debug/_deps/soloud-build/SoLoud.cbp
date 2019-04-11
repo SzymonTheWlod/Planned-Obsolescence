@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SoLoud"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Launcher\;CMake Files\CMake\;CMake Files\Libs\;CMake Files\CI\;CMake Files\CI\datpak\;CMake Files\CI\datpak\Hooks\;CMake Files\CI\datpak\Configs\;CMake Files\CI\datpak\CMake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\soloud-src\;CMake Files\cmake-build-debug\_deps\soloud-src\contrib\;CMake Files\cmake-build-debug\_deps\soloud-src\contrib\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soloud">
+				<Option output="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/libsoloudd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_NULL"/>
+					<Add option="-DWITH_WINMM"/>
+					<Add option="-DWITH_WASAPI"/>
+					<Add directory="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/../include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 soloud"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soloud/fast">
+				<Option output="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/libsoloudd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_NULL"/>
+					<Add option="-DWITH_WINMM"/>
+					<Add option="-DWITH_WASAPI"/>
+					<Add directory="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/../include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 soloud/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/monotone/soloud_monotone.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt_dll.c">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/sfxr/soloud_sfxr.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/darray.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/darray.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/klatt.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/klatt.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/resonator.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/resonator.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/soloud_speech.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/tts.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/tts.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/tedsid/sid.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/tedsid/sid.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/tedsid/soloud_tedsid.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/tedsid/ted.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/tedsid/ted.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/vic/soloud_vic.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/vizsn/soloud_vizsn.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/wav/dr_impl.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/wav/soloud_wav.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/wav/soloud_wavstream.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/wav/stb_vorbis.c">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/wav/stb_vorbis.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/backend/null/soloud_null.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/backend/wasapi/soloud_wasapi.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/backend/winmm/soloud_winmm.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_audiosource.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_bus.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_3d.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_basicops.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_faderops.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_filterops.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_getters.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_setters.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_voicegroup.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_voiceops.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_fader.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_fft.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_fft_lut.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_file.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_filter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_queue.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_thread.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_bassboostfilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_biquadresonantfilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_dcremovalfilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_echofilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_fftfilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_flangerfilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_lofifilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Launcher/PO_Launcher.exe">
+			<Option virtualFolder="CMake Files\Launcher\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CMake/datapak.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Libs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Libs\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CI\datpak\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/Hooks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CI\datpak\Hooks\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/Configs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CI\datpak\Configs\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CI\datpak\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMake/astyle.cmake">
+			<Option virtualFolder="CMake Files\CI\datpak\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMake/clang.format.cmake">
+			<Option virtualFolder="CMake Files\CI\datpak\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMake/itch.io.cmake">
+			<Option virtualFolder="CMake Files\CI\datpak\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMake/python.cmake">
+			<Option virtualFolder="CMake Files\CI\datpak\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMake/soloud.cmake">
+			<Option virtualFolder="CMake Files\CI\datpak\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/Configure.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/src.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/cmake/Install.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/cmake/InstallExport.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/cmake/OptionDependentOnPackage.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/cmake/PrintOptionStatus.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

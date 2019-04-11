@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PlannedObsolescence"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Launcher\;CMake Files\CMake\;CMake Files\Libs\;CMake Files\CI\;CMake Files\CI\datpak\;CMake Files\CI\datpak\Hooks\;CMake Files\CI\datpak\Configs\;CMake Files\CI\datpak\CMake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\soloud-src\;CMake Files\cmake-build-debug\_deps\soloud-src\contrib\;CMake Files\cmake-build-debug\_deps\soloud-src\contrib\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PlannedObsolescence">
+				<Option output="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/bin/PlannedObsolescence.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Libs/ASGE/include"/>
+					<Add directory="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Libs/nlohmann"/>
+					<Add directory="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/../include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 PlannedObsolescence"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PlannedObsolescence/fast">
+				<Option output="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/bin/PlannedObsolescence.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Libs/ASGE/include"/>
+					<Add directory="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Libs/nlohmann"/>
+					<Add directory="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/../include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 PlannedObsolescence/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FormatYaCode">
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/CI/datpak/CMake"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/CI/datpak/CMake/Makefile&quot;  VERBOSE=1 FormatYaCode"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/CI/datpak/CMake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/CI/datpak/CMake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/CI/datpak/CMake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PlannedObsolescence+GameData">
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/CI/datpak/CMake"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/CI/datpak/CMake/Makefile&quot;  VERBOSE=1 PlannedObsolescence+GameData"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/CI/datpak/CMake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/CI/datpak/CMake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/CI/datpak/CMake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soloud">
+				<Option output="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/libsoloudd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_NULL"/>
+					<Add option="-DWITH_WINMM"/>
+					<Add option="-DWITH_WASAPI"/>
+					<Add directory="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/../include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 soloud"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="soloud/fast">
+				<Option output="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/libsoloudd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_NULL"/>
+					<Add option="-DWITH_WINMM"/>
+					<Add option="-DWITH_WASAPI"/>
+					<Add directory="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/../include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 soloud/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/Boss.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/Boss.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/Character.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/Character.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/Goon.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/Goon.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/LabTechnician.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/LabTechnician.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/Pathfinding/NodeConnection.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/Pathfinding/PathNode.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/Pathfinding/PathfindingMap.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/Pathfinding/PathfindingMap.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/Security.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Characters/Security.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/ConfigParsers/CharacterData.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/ConfigParsers/MapData.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/ConfigParsers/RoomData.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/ConfigParsers/TileData.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Constants.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Debug/DebugText.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Debug/DebugText.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/FileHandler/FileHandler.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/FileHandler/FileHandler.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Keybinds/Keybinds.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Keybinds/Keybinds.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Managers/CharacterManager.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Managers/CharacterManager.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Managers/GaugeManager.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Managers/GaugeManager.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Managers/Gauges.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Managers/Gauges.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Managers/SceneManager.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Managers/SceneManager.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Managers/UIManager.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Managers/UIManager.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Map/GameMap.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Map/GameMap.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Map/Room.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Map/Room.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Map/Tile.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Map/Tile.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Math/Point.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Math/Point.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Math/Vector.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Math/Vector.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/PlannedObsolescence.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/PlannedObsolescence.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Scenes/GameCore.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Scenes/GameCore.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Scenes/GameOver.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Scenes/GameOver.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Scenes/MainMenu.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Scenes/MainMenu.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Scenes/Scene.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Scenes/Splashscreen.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Scenes/Splashscreen.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Scenes/TutorialMenu.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Scenes/TutorialMenu.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Sprites/ScaledSpriteArray.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Sprites/ScaledSpriteArray.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/Button.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/Button.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/CharacterInfoPopup.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/CharacterInfoPopup.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/Cursor.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/Cursor.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/GenericUI.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/GenericUI.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/GetLocalisedString.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/GetLocalisedString.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/HudGaugeData.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/MainHUD.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/MainHUD.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/Menu.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/Menu.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/PopupWindow.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/PopupWindow.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/ProgressBar.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/ProgressBar.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/TextBox.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/TextBox.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/UI.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/UI.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/WorldInteractionPopup.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/UI/WorldInteractionPopup.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Viewport/Camera.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Viewport/Camera.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Viewport/ClickArea.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Source/Viewport/ClickArea.h">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/monotone/soloud_monotone.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/openmpt/soloud_openmpt_dll.c">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/sfxr/soloud_sfxr.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/darray.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/darray.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/klatt.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/klatt.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/resonator.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/resonator.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/soloud_speech.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/tts.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/speech/tts.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/tedsid/sid.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/tedsid/sid.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/tedsid/soloud_tedsid.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/tedsid/ted.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/tedsid/ted.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/vic/soloud_vic.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/vizsn/soloud_vizsn.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/wav/dr_impl.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/wav/soloud_wav.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/wav/soloud_wavstream.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/wav/stb_vorbis.c">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/audiosource/wav/stb_vorbis.h">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/backend/null/soloud_null.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/backend/wasapi/soloud_wasapi.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/backend/winmm/soloud_winmm.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_audiosource.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_bus.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_3d.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_basicops.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_faderops.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_filterops.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_getters.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_setters.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_voicegroup.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_core_voiceops.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_fader.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_fft.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_fft_lut.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_file.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_filter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_queue.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/core/soloud_thread.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_bassboostfilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_biquadresonantfilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_dcremovalfilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_echofilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_fftfilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_flangerfilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/src/filter/soloud_lofifilter.cpp">
+			<Option target="soloud"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/main.cpp">
+			<Option target="PlannedObsolescence"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Launcher/PO_Launcher.exe">
+			<Option virtualFolder="CMake Files\Launcher\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CMake/datapak.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/Libs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Libs\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CI\datpak\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/Hooks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CI\datpak\Hooks\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/Configs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CI\datpak\Configs\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CI\datpak\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMake/astyle.cmake">
+			<Option virtualFolder="CMake Files\CI\datpak\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMake/clang.format.cmake">
+			<Option virtualFolder="CMake Files\CI\datpak\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMake/itch.io.cmake">
+			<Option virtualFolder="CMake Files\CI\datpak\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMake/python.cmake">
+			<Option virtualFolder="CMake Files\CI\datpak\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/CI/datpak/CMake/soloud.cmake">
+			<Option virtualFolder="CMake Files\CI\datpak\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/Configure.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/src.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/cmake/Install.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/cmake/InstallExport.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/cmake/OptionDependentOnPackage.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Szymon/Desktop/Project/ex-machina-planned-obsolescence/cmake-build-debug/_deps/soloud-src/contrib/cmake/PrintOptionStatus.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\soloud-src\contrib\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
